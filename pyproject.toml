@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgexample"
+version = "1.0.2"
+authors = [
+  { name="Good Boy", email="pythonic@rexbytes.com" },
+]
+description = "A simple package example"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/RexBytes/pkgexample"
+"Bug Tracker" = "https://github.com/RexBytes/pkgexample/issues"
+"Download URL" ="https://github.com/RexBytes/pkgexample/archive/refs/tags/v1.0.2.tar.gz"
+
